@@ -8,8 +8,9 @@ Screenshot using [this](https://github.com/corax89/chip8-test-rom) test rom
 ![Test ROM screenshot](test.png)
 
 ## Usage
-
+```
 ./main <rom>
+```
 
 The keyboard is as such: \
 1 2 3 4 \
