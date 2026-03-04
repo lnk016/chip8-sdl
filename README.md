@@ -4,6 +4,7 @@ Chip8 emulator using SDL3
 
 You can get some ROMs from [here](https://github.com/kripod/chip8-roms)
 
+Screenshot using [this](https://github.com/corax89/chip8-test-rom) test rom
 ![Test ROM screenshot](test.png)
 
 ## Usage
