@@ -52,13 +52,13 @@ SDL_AppResult SDL_AppInit(void** appstate, int argc, char** argv){
     }
     *appstate = state;
 
-    state->window = SDL_CreateWindow("Window", WINDOW_W, WINDOW_H, 0);
+    state->window = SDL_CreateWindow("Chip8", WINDOW_W, WINDOW_H, 0);
     if (!state->window){
         SDL_Log("Could not initialize program: %s", SDL_GetError());
         return SDL_APP_FAILURE;
     }
 
-    state->renderer = SDL_CreateRenderer(state->window, "opengl");
+    state->renderer = SDL_CreateRenderer(state->window, "software");
     if (!state->renderer){
         SDL_Log("Could not initialize program: %s", SDL_GetError());
         return SDL_APP_FAILURE;
